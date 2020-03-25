@@ -11,3 +11,71 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.App {
+  background: #b1d2ef;
+  padding-bottom: 10px;
+}
+
+.container-lg {
+  width: 70%;
+  margin: 0px auto;
+  padding-top: 30px;
+}
+.stats-grid {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 20px
+}
+.main-heading {
+  text-align: center;
+  margin: 0;
+}
+.state-flex {
+  display: inline-block;
+  width: 25%;
+  color: grey;
+}
+
+.state {
+  color: #333;
+  font-weight: bold;
+}
+.stats-by-state {
+  margin-top: 30px;
+}
+.red {
+  color: red;
+}
+.purple {
+  color: purple;
+}
+.green {
+  color: green;
+}
+.grey {
+  color: grey;
+}
+.last-updated {
+  font-size: 18px;
+  font-weight: 300;
+}
+footer {
+  text-align: center;
+  font-size: 12px;
+}
+@media only screen and (max-width: 600px) {
+  .container-lg {
+    width: 95%
+  }
+  .state-flex {
+    display: block;
+    width: 90%;
+  }
+  .stats-by-state {
+    width: 70%;
+    margin: 30px auto;
+  }
+}
